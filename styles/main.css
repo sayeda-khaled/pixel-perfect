@@ -12,6 +12,9 @@ body {
 .menu {
   border: 2px solid #E6E4E1;
   height: 56px;
+  display: flex;
+  position: relative;
+
 }
 
 ul{
@@ -81,11 +84,7 @@ ul{
 
 }
 
-.pictures {
-  background-color: red;
-  height: 189px;
-  padding-bottom: 84px;
-}
+
 
 .side-posts {
 
@@ -108,4 +107,26 @@ ul{
   color: red;
   padding: 30px;
 
+  style: none;
+
+}
+
+.side-posts>p {
+  font-size: 10px;
+}
+
+/*This is for the line of pictures at the bottom of the page*/
+.pictures {
+  background-color: gray;
+  height: 189px;
+  padding-bottom: 84px;
+}
+
+/*This is for the footer with the copy rights*/
+.footer {
+  background-color: black;
+  color: gray;
+  height: 50px;
+  padding-top: 15px;
+  text-align: center;
 }
