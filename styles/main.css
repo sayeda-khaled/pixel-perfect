@@ -130,7 +130,7 @@ a {
   height: 90%;
   /* display: flex; */
   flex-direction: column;
-  display: inline-flex;
+  display: flex;
   margin-left: 32px;
 
 
@@ -138,6 +138,7 @@ a {
 
 .side-post {
   margin-top: 53px;
+  background-color: white;
 }
 
 .article-figures>.background-picture{
@@ -154,6 +155,21 @@ a {
   background-size: cover;
   border-radius: 50%;
   margin: auto;
+
+}
+
+.article-figures>.side-article-pic{
+  height: 184px;
+  width: 80%;
+  background-image: url("../images/side-article-pic2.jpeg");
+  background-size: cover;
+  margin: auto;
+
+}
+
+.side-article-pic>h2 {
+  font-size: 10px;
+  list-style: none;
 }
 
 .my-bio>p {
@@ -161,13 +177,94 @@ a {
   color: red;
 }
 
-/*This is for the line of pictures at the bottom of the page*/
-.pictures {
-  background-color: gray;
-  height: 189px;
-  padding-bottom: 84px;
+.side-post>h1{
+  font-size: 15px;
+  text-align: center;
 }
 
+/*this is for the second article in the right*/
+.side-article-pic>p{
+  font-size: 15px;
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+
+.pictures {
+  /* background-color: gray; */
+  height: 189px;
+  padding-bottom: 84px;
+  display: flex;
+  flex-wrap: nowrap;
+   align-items: stretch;
+   margin: 0px;
+
+}
+
+.bottom-pictures {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0px;
+}
+
+.buttom-pictures>.footer-first{
+  height: 189px;
+  width: 184px;
+  background-image: url("../images/footer-pic1.jpeg");
+  background-size: cover;
+}
+
+.buttom-pictures>.footer-second{
+  height: 189px;
+  width: 189px;
+  background-image: url("../images/footer-pic2.jpeg");
+  background-size: cover;
+}
+
+.buttom-pictures>.footer-third{
+  height: 189px;
+  width: 184px;
+  background-image: url("../images/footer-pic3.jpeg");
+  background-size: cover;
+  margin: 0px;
+}
+
+.buttom-pictures>.footer-forth{
+  height: 189px;
+  width: 184px;
+  background-image: url("../images/footer-pic4.jpeg");
+  background-size: cover;
+}
+
+.buttom-pictures>.footer-fifth{
+  height: 189px;
+  width: 184px;
+  background-image: url("../images/footer-pic5.jpeg");
+  background-size: cover;
+}
+
+.buttom-pictures>.footer-sixth{
+  height: 189px;
+  width: 184px;
+  background-image: url("../images/footer-pic6.jpeg");
+  background-size: cover;
+}
+
+.buttom-pictures>.footer-seventh{
+  height: 189px;
+  width: 184px;
+  background-image: url("../images/footer-pic7.jpeg");
+  background-size: cover;
+}
+
+.buttom-pictures>.footer-eighth{
+  height: 184px;
+  width: 184px;
+  background-image: url("../images/footer-pic8.jpeg");
+  background-size: cover;
+}
 /*This is for the footer with the copy rights*/
 .footer {
   background-color: black;
