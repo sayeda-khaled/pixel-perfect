@@ -190,7 +190,78 @@ a {
   font-weight: 400;
 }
 
+/*Second post*/
+.latest-posts {
+  height: 516px;
+  background-color: gray;
+  margin-top: 43px;
+}
 
+.latest-posts>h1{
+  font-size: 15px;
+  text-align: center;
+}
+
+/*Third post*/
+
+.instgram-feed {
+  height: 598px;
+  background-color: white;
+  display: flex
+  flex-direction: column;
+
+}
+
+.instgram-feed>h1{
+  font-size: 15px;
+}
+.third-article-pictures>.third-article-pic1 {
+
+  height: 154px;
+  width: 145px;
+  background-image: url("../images/footer-pic1.jpeg");
+  background-size: cover;
+}
+
+.third-article-pictures>.third-article-pic2 {
+
+  height: 154px;
+  width: 145px;
+  background-image: url("../images/footer-pic2.jpeg");
+  background-size: cover;
+}
+
+.third-article-pictures>.third-article-pic3 {
+
+  height: 154px;
+  width: 145px;
+  background-image: url("../images/footer-pic3.jpeg");
+  background-size: cover;
+}
+
+.third-article-pictures>.third-article-pic4 {
+
+  height: 154px;
+  width: 145px;
+  background-image: url("../images/footer-pic4.jpeg");
+  background-size: cover;
+}
+
+.third-article-pictures>.third-article-pic5 {
+
+  height: 154px;
+  width: 145px;
+  background-image: url("../images/footer-pic5.jpeg");
+  background-size: cover;
+}
+
+.third-article-pictures>.third-article-pic6 {
+
+  height: 154px;
+  width: 145px;
+  background-image: url("../images/footer-pic6.jpeg");
+  background-size: cover;
+}
 
 .pictures {
   /* background-color: gray; */
