@@ -232,7 +232,9 @@ a {
 
 /*Second Post pictures*/
 
-
+.second-post{
+  color: red;
+}
 
 
 .side-post>.latest-posts {
@@ -358,12 +360,16 @@ padding-top: 5px;
    align-items: stretch;
    margin: 0px;
 
+
+
 }
 
 .bottom-pictures {
   display: flex;
   flex-wrap: nowrap;
   margin: 0px;
+  height: 189px;
+  width: 180px;
 }
 
 /* .buttom-pictures>.footer-first{
@@ -371,16 +377,16 @@ padding-top: 5px;
   width: 184px;
   background-image: url("../images/footer-pic1.jpeg");
   background-size: cover;
-} */
+}
 
-.bottom-pictures>.footer-second{
+.buttom-pictures>.footer-second{
   height: 189px;
   width: 189px;
   background-image: url("../images/footer-pic2.jpeg");
   background-size: cover;
 }
 
-.bottom-pictures>.footer-third{
+.buttom-pictures>.footer-third{
   height: 189px;
   width: 184px;
   background-image: url("../images/footer-pic3.jpeg");
@@ -388,40 +394,40 @@ padding-top: 5px;
   margin: 0px;
 }
 
-.bottom-pictures>.footer-forth{
+.buttom-pictures>.footer-forth{
   height: 189px;
   width: 184px;
   background-image: url("../images/footer-pic4.jpeg");
   background-size: cover;
 }
 
-.bottom-pictures>.footer-fifth{
+.buttom-pictures>.footer-fifth{
   height: 189px;
   width: 184px;
   background-image: url("../images/footer-pic5.jpeg");
   background-size: cover;
 }
 
-.bottom-pictures>.footer-sixth{
+.buttom-pictures>.footer-sixth{
   height: 189px;
   width: 184px;
   background-image: url("../images/footer-pic6.jpeg");
   background-size: cover;
 }
 
-.bottom-pictures>.footer-seventh{
+.buttom-pictures>.footer-seventh{
   height: 189px;
   width: 184px;
   background-image: url("../images/footer-pic7.jpeg");
   background-size: cover;
 }
 
-.bottom-pictures>.footer-eighth{
+.buttom-pictures>.footer-eighth{
   height: 184px;
   width: 184px;
   background-image: url("../images/footer-pic8.jpeg");
   background-size: cover;
-}
+} */
 /*This is for the footer with the copy rights*/
 .footer {
   background-color: black;
