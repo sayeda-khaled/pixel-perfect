@@ -163,9 +163,11 @@ a:hover{
 }
 
 .end-article>p {
-  /* padding-bottom: 30px;
-  padding-left: 20px; */
-  /* margin-bottom: 60px; */
+ padding-left: 40px;
+ padding-bottom: 10px;
+
+
+
 }
 /*End of styling the articles*/
 
@@ -463,7 +465,7 @@ font-weight: 300;
 .pictures {
   /* background-color: gray; */
   height: 189px;
-  padding-bottom: 84px;
+  padding-top: 20px;
   display: flex;
   flex-wrap: nowrap;
    align-items: stretch;
@@ -481,67 +483,18 @@ font-weight: 300;
   width: 180px;
 }
 
-/* .buttom-pictures>.footer-first{
-  height: 189px;
-  width: 184px;
-  background-image: url("../images/footer-pic1.jpeg");
-  background-size: cover;
-}
-
-.buttom-pictures>.footer-second{
-  height: 189px;
-  width: 189px;
-  background-image: url("../images/footer-pic2.jpeg");
-  background-size: cover;
-}
-
-.buttom-pictures>.footer-third{
-  height: 189px;
-  width: 184px;
-  background-image: url("../images/footer-pic3.jpeg");
-  background-size: cover;
-  margin: 0px;
-}
-
-.buttom-pictures>.footer-forth{
-  height: 189px;
-  width: 184px;
-  background-image: url("../images/footer-pic4.jpeg");
-  background-size: cover;
-}
-
-.buttom-pictures>.footer-fifth{
-  height: 189px;
-  width: 184px;
-  background-image: url("../images/footer-pic5.jpeg");
-  background-size: cover;
-}
-
-.buttom-pictures>.footer-sixth{
-  height: 189px;
-  width: 184px;
-  background-image: url("../images/footer-pic6.jpeg");
-  background-size: cover;
-}
-
-.buttom-pictures>.footer-seventh{
-  height: 189px;
-  width: 184px;
-  background-image: url("../images/footer-pic7.jpeg");
-  background-size: cover;
-}
-
-.buttom-pictures>.footer-eighth{
-  height: 184px;
-  width: 184px;
-  background-image: url("../images/footer-pic8.jpeg");
-  background-size: cover;
-} */
 /*This is for the footer with the copy rights*/
 .footer {
   background-color: black;
+
+  height: 90px;
+  /* padding-bottom: 20px; */
+
+}
+
+.footer>p{
   color: gray;
-  height: 50px;
-  padding-top: 15px;
   text-align: center;
+  /* padding-right: 20px; */
+  padding-top: 30px;
 }
