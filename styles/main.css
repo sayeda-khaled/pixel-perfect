@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #F7F8FA;
+  background-color: #f7f8fa;
   font-family: Oswald;
   font-style: normal;
   font-weight: 300;
@@ -19,7 +19,11 @@ body {
 
 }
 
-
+hr {
+  /*border: .5px solid #000;*/
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 a {
   text-decoration: none;
@@ -158,6 +162,11 @@ a:hover{
   padding-top: 36px;
 }
 
+.end-article>p {
+  /* padding-bottom: 30px;
+  padding-left: 20px; */
+  /* margin-bottom: 60px; */
+}
 /*End of styling the articles*/
 
 
