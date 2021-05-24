@@ -13,20 +13,24 @@ body {
 
 .menu {
   border: 2px solid #E6E4E1;
-  height: 56px;
+  height: 66px;
   /* display: flex; */
 
 
 }
 
-ul{
-  list-style: none;
-  padding: 0;
-}
+
 
 a {
   text-decoration: none;
+
 }
+
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+
 
 a:hover{
    transform: scale(1.8);
@@ -37,13 +41,40 @@ a:hover{
 
 .menu>.nav-bar {
   display: flex;
+  padding-left: 140px;
+  padding-top: 20px;
+
+
 }
 
-.nav-bar>li{
+.nav-bar>.home{
   padding: 10px;
-  font-size: 12px;
-  color: gray;
+  font-size: 14px;
+  color: #666563;
+  font-weight: bold
 
+}
+
+.nav-bar>.portifolio{
+  padding: 10px;
+  font-size: 14px;
+  color: #666563;
+  font-weight: bold
+
+}
+
+.nav-bar>.about-me{
+  padding: 10px;
+  font-size: 14px;
+  color: #666563;
+  font-weight: bold
+}
+
+.nav-bar>.contact{
+  padding: 10px;
+  font-size: 14px;
+  color: #666563;
+  font-weight: bold
 }
 
 .main-page {
@@ -187,14 +218,18 @@ a:hover{
 
 
 
-/*second blog pictures*/
+/*first blog pictures*/
 
+.popular-posts-main>h1{
+  color: gray;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+}
 
 .article-figures>.popular-post-pic1{
   height: 202px;
   width: 304px;
-  /* background-image: url("../images/side-article-pic2.jpeg");
-  background-size: cover; */
   margin: auto;
 
 }
@@ -214,12 +249,12 @@ a:hover{
 }
 
 .popular-post>p{
-
 color: gray;
 font-size: 12px;
+
 }
 
-.popular-post2>p{
+/* .popular-post2>p{
 
 color: gray;
 font-size: 12px;
@@ -229,7 +264,7 @@ font-size: 12px;
 
 color: gray;
 font-size: 12px;
-}
+} */
 
 
 .side-article-pic>h2 {
@@ -250,6 +285,7 @@ font-size: 12px;
   color: gray;
   font-size: 20px;
   text-align: center;
+  font-weight: bold
 
 }
 
@@ -292,18 +328,27 @@ padding-top: 5px;
   color: gray;
   font-size: 18px;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .second-post>.second-post-date{
-  font-size: 12px;
+  font-size: 15px;
   color: gray;
   padding-bottom: 40px;
+  font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 400;
 
 }
 
 .second-post>p{
   font-size: 15px;
   color: gray;
+  font-weight: bold;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
 }
 .article-figures>.second-post-pic1{
 
