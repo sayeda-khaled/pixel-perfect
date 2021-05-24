@@ -274,10 +274,7 @@ font-size: 12px;
   /* margin-top: 43px; */
 /* } */
 
-.latest-posts>h1{    /*need to re-trace*/
-  font-size: 15px;
-  text-align: center;
-}
+
 
 /*Second Post pictures*/
 
@@ -291,13 +288,29 @@ font-size: 12px;
 padding-top: 5px;
 }
 
+.latest-posts>h1{
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+}
+
+.second-post>.second-post-date{
+  font-size: 12px;
+  color: gray;
+  padding-bottom: 30px;
+
+}
+
+.second-post>p{
+  font-size: 15px;
+  color: gray;
+}
 .article-figures>.second-post-pic1{
 
   height: 75px;
   width: 103px;
-  background-image: url("../images/second-post-pic1.jpeg");
-  background-size: cover;
   float: left;
+
   margin: auto;
 }
 
@@ -307,8 +320,6 @@ padding-top: 5px;
 
   height: 75px;
   width: 103px;
-  background-image: url("../images/second-post-pic2.jpeg");
-  background-size: cover;
   float: left;
   margin: auto;
 
@@ -318,8 +329,6 @@ padding-top: 5px;
 
   height: 75px;
   width: 103px;
-  background-image: url("../images/second-post-pic3.jpeg");
-  background-size: cover;
   float: left;
   margin: auto;
 
@@ -329,8 +338,6 @@ padding-top: 5px;
 
   height: 75px;
   width: 103px;
-  background-image: url("../images/second-post-pic4.jpeg");
-  background-size: cover;
   float: left;
   margin: auto;
 
