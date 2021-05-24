@@ -37,8 +37,51 @@ a, a:hover, a:focus, a:active {
 
 
 a:hover{
-   transform: scale(1.8);
+   background-color: orange;
 }
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  /* width: 182px; */
+  align-content: center;
+
+
+  /* margin-right: 20px;
+  flex: 1;
+  padding-left: 20px; */
+
+}
+
+i {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 47px;
+  border: 1px solid gray;
+}
+
+i:not(:last-child){
+  margin-right:  5px;
+}
+
+i:hover {
+  color: blue;
+  border: blue solid 2px;
+  cursor: pointer;
+}
+/* .social-media>.social-media-facebook{
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: auto;
+} */
 
 
 /*menu options list*/
@@ -305,21 +348,6 @@ font-size: 12px;
   text-align: center;
 }
 
-/*this is for the second post in the right*/
-/* .side-article-pic>p{
-  font-size: 15px;
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  color: red;
-} */
-
-/*Second post*/
-/* .side-post>.latest-posts {
-  height: 516px;
-  background-color: white; */
-  /* margin-top: 43px; */
-/* } */
 
 
 
@@ -467,8 +495,9 @@ font-weight: 300;
   height: 189px;
   padding-top: 20px;
   display: flex;
-  flex-wrap: nowrap;
-   align-items: stretch;
+
+
+
    margin: 0px;
 
 
@@ -477,10 +506,11 @@ font-weight: 300;
 
 .bottom-pictures {
   display: flex;
-  flex-wrap: nowrap;
+
   margin: 0px;
-  height: 189px;
+  height: 190px;
   width: 180px;
+  flex: 1;
 }
 
 /*This is for the footer with the copy rights*/
