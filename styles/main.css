@@ -64,15 +64,49 @@ a:hover{
    background-color: orange;
 }
 
-  .social-media{
+.social-media{
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+  .social-media > *{
     display: flex;
     justify-content: center;
-    /* width: 182px; */
     align-content: center;
+    border: .5px solid #AAAAAA;;
+    border-radius: 47px;
+    padding-top: 7px;
+    color: #AAAAAA;
+    font-size: 12px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
 
   }
 
+  .social-media-articles{
+    /* text-align: center; */
 
+    display: flex;
+    padding-left: 545px;
+    /* padding-bottom: 50px; */
+
+  }
+
+  .social-media-articles > *{
+    display: flex;
+    /* justify-content: center;
+    align-content: center;
+    position: absolute; */
+
+    color:  #AAAAAA;
+    width: 10px;
+    height: 10px;
+    margin-top: -50px;
+    padding-left: 25px;
+
+
+  }
 
 
 
@@ -82,10 +116,10 @@ i {
   justify-content: center;
   align-items: center;
 
-  width: 30px;
-  height: 30px;
-  border-radius: 47px;
-  border: 1px solid gray;
+
+
+
+
 }
 
 i:not(:last-child){
@@ -94,17 +128,9 @@ i:not(:last-child){
 
 i:hover {
   color: blue;
-  border: blue solid 2px;
+  /* border: blue solid 2px; */
   cursor: pointer;
 }
-/* .social-media>.social-media-facebook{
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  margin: auto;
-} */
 
 
 /*menu options list*/
@@ -234,17 +260,7 @@ i:hover {
 
 }
 
-.social-media-articles{
-  display: flex;
 
-  /* justify-content: flex-end; */
-  /* width: 182px; */
-  /* align-content: space-between; */
-  position: absolute;
-  padding-left: 550px;
-  padding-bottom: 50px;
-
-}
 
 
 
@@ -300,19 +316,15 @@ i:hover {
 }
 
 
-.social-media{
-  text-align: center;
-  padding-bottom: 55px;
 
 
-}
 
 
 
 /*first blog pictures*/
 
 .popular-posts-main>h1{
-  color: gray;
+  color: #444444;
   padding-top: 18px;
   font-size: 18px;
   text-align: center;
@@ -340,7 +352,7 @@ i:hover {
 }
 
 .popular-post>p{
-color: gray;
+color: #444444;
 font-size: 12px;
 
 }
@@ -365,15 +377,16 @@ font-size: 12px;
 
 .my-bio>p {
   font-size: 15px;
-  color: gray;
+  color: #454545;
   text-align: left;
   padding-left: 40px;
   line-height: 25px;
 
+
 }
 
 .my-bio>h1 {
-  color: gray;
+  color: #444444;
   font-size: 20px;
   text-align: center;
   font-weight: bold
