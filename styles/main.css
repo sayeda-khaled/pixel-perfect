@@ -14,9 +14,12 @@ body {
 .menu {
   border: 2px solid #E6E4E1;
   height: 66px;
-  /* display: flex; */
+  display: none;
   position: relative;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 hr {
@@ -59,7 +62,7 @@ a:hover {
 
 .social-media-nav-bar {
   display: flex;
-  padding-left: 1100px;
+  /* padding-left: 1100px; */
 }
 
 .social-media-nav-bar>* {
@@ -67,7 +70,6 @@ a:hover {
   color: #AAAAAA;
   width: 10px;
   height: 10px;
-  margin-top: -30px;
   padding-left: 25px;
   font-size: 13px;
   font-weight: bold;
@@ -108,7 +110,7 @@ i:hover {
 /*menu options list*/
 .menu>.nav-bar {
   display: flex;
-  padding-left: 140px;
+  /* padding-left: 140px; */
   padding-top: 15px;
 }
 
@@ -129,7 +131,7 @@ i:hover {
   width: 750px;
   height: 90%;
   display: inline-block;
-  margin-left: 147px;
+  margin-left: 5%;
 
 }
 
@@ -405,8 +407,11 @@ i:hover {
   display: flex;
   margin: 0px;
   height: 190px;
-  width: 180px;
-  flex: 1;
+  max-width: 100vh;
+}
+
+.bottom-pictures img{
+  display: none;
 }
 
 /*This is for the footer with the copy rights*/
@@ -423,7 +428,7 @@ i:hover {
   padding-top: 30px;
 }
 
-@media (max-width: 578px) {
+/* @media (max-width: 578px) {
   img {
     max-width: 100%;
     height: auto;
@@ -436,11 +441,43 @@ i:hover {
   .articles {
     margin-left: 20px;
     width: 200px;
+  } */
+/* } */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bottom-pictures img:nth-child(-n+4) {
+    display: inline-block;
+  }
+  .media-menu {
+  
   }
 
-  .article {
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bottom-pictures img {
+    display: inline-block;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .media-menu {
+    display: none;
   }
 
 
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

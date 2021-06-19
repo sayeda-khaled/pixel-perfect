@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
   <meta charset="utf-8">
 
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/hamburger.css">
   <link src="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i">
   <title>Pixel Perfect</title>
   <script src="https://kit.fontawesome.com/50446315e7.js" crossorigin="anonymous"></script>
 </head>
 
+<body>
 <header class="menu">
   <section class="nav-bar">
     <div class="home"><a href="#">HOME</a></div>
@@ -30,7 +33,46 @@
 
 </header>
 
-<body>
+<!-- <header class="media-menu">
+  <i class="fas fa-bars"></i>
+</header> -->
+
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation" class="media-menu">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+
+    <!--
+    Some spans to act as a hamburger.
+
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>About</li></a>
+      <a href="#"><li>Info</li></a>
+      <a href="#"><li>Contact</li></a>
+      <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+    </ul>
+  </div>
+</nav>
+
+
 
   <section class="main-page">
 
@@ -52,7 +94,7 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.
 
           </p>
-          <h3><a href="#"> CONTINUE READING</a></h3>
+          <button><a href="#"> CONTINUE READING</a></button>
 
           <hr style="margin-top: 20px;">
           <footer class="end-article">
