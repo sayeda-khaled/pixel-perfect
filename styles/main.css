@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f7f8fa;
+  /* background-color: #f7f8fa; */
   font-family: Oswald;
   font-style: normal;
   font-weight: 300;
@@ -451,7 +451,7 @@ i:hover {
     display: inline-block;
   }
   .media-menu {
-  
+
   }
 
 }
